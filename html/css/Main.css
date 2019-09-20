@@ -1,0 +1,15 @@
+#footer {
+      background-color: black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .me-pic {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+    .back {
+      color: #fff;
+    }
