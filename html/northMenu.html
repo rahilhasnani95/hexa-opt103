@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-  <title>Hexa Kitchen| Admin Login</title>
+  <title>Hexa Kitchen| Vendor Registration</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -35,28 +34,34 @@
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
     body {
       font-family: 'Open Sans', sans-serif;
       font-family: 'Montserrat', sans-serif;
     }
-    input[type="text"], input[type="password"],
-    input[type="email"] {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
       font-size: 1.6rem;
       color: #010100;
       width: 100%;
       line-height: 40px;
       padding-left: 3rem;
     }
+
     select {
       width: 100%;
       height: 65px;
       color: #010100;
       padding-left: 3rem;
     }
+
     .h1,
     h1 {
       font-size: 36px;
     }
+
     .h1,
     .h2,
     .h3,
@@ -66,36 +71,45 @@
       margin-top: 20px;
       margin-bottom: 10px;
     }
+
     .text-white {
       color: #fff !important;
     }
+
     .font-w400 {
       font-weight: 400;
     }
+
     .padding-top-xl {
       padding-top: 5rem !important;
     }
+
     .padding-bottom-xl {
       padding-bottom: 5rem !important;
     }
+
     .margin-top-m {
       margin-top: 3rem !important;
     }
+
     .margin-bottom-m {
       margin-bottom: 3rem !important;
     }
+
     .section5 h2 {
       line-height: 35px;
     }
+
     .section5 p {
       font-size: 16px;
       line-height: 26px;
     }
+
     .has-error input[type="text"],
     .has-error input[type="email"],
     .has-error input[type="password"],
     .has-error select {
-      border: 1px solid #a94442;
+      border: 2px solid #a94442;
     }
   </style>
 </head>
@@ -129,20 +143,20 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Register</b> <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Vendor</a></li>
+              <li><a href="C:\GitRepo\hexa-opt103\html\VendorRegistration_Page.html">Vendor</a></li>
               <li class="divider"></li>
-              <li><a href="#">Employee</a></li>
+              <li><a href="C:\GitRepo\hexa-opt103\html\EmployeeRegistration_Page.html">Employee</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="C:\GitRepo\hexa-opt103\html\AdminLogin.html">Admin</a></li>
+              <li><a href="#">Admin</a></li>
               <li class="divider"></li>
-              <li><a href="C:\GitRepo\hexa-opt103\html\VendorLogin.html">Vendor</a></li>
+              <li><a href="#">Vendor</a></li>
               <li class="divider"></li>
-              <li><a href="C:\GitRepo\hexa-opt103\html\EmployeeLogin.html">Employee</a></li>
+              <li><a href="#">Employee</a></li>
             </ul>
           </li>
         </ul>
@@ -150,65 +164,15 @@
     </div>
   </nav>
   <!-- Navbar End-->
- 
   <main role="main">
-  <section class="footer-form padding-top-xl padding-bottom-xl" aria-label="Contact Form">
-    <div class="wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 section5 text-center">
-            <h2 class="h1 font-w400">Admin Login</h2> <br><br><br>
-            
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-            <form name="contentForm" enctype="multipart/form-data" method="" action="" role="form"
-              data-toggle="validator" novalidate="true">
-              
-              <div class="form schedule-assessment">
-                <div class="row margin-top-l">
-                  
-                  <div class="form-group col-md-6">
-                    <label for="username" class="sr-only">Username: </label>
-                    <input name="username" id="username" placeholder="Username/Email" type="email" value=""
-                      required="required" data-error="Please enter your email/username.">
-                    <div class="help-block with-errors"></div>
-                  </div><!-- close col-->
-                  
-                  <div class="form-group col-md-6">
-                        <label for="password" class="sr-only">Password: </label>
-                        <input name="password" id="password" placeholder="Password" type="password" value=""
-                          required="required" data-error="Please enter your password.">
-                        <div class="help-block with-errors"></div>
-                      </div><!-- close col-->
-
-                </div><!-- close row-->
-
-                
-                <div class="form-group text-center">
-                  <input class="submit center-block btn btn-success btn-lg" value="Submit" type="submit">
-                </div>
-
-              </div>
-              </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   </main>
 
-
   <!-- Footer -->
-  <footer id="footer">
-    <div class="container-fluid">
-      <img class="me-pic" src="C:\GitRepo\hexa-opt103\html\images\Restaurant.jpg" alt=""><br>
-      <a class="back" href="#main"><i class="fas fa-caret-up fa-3x"></i></a>
-      <p>©2019 AAR</p>
-    </div>
-  </footer>
+  <div class="footer">
+    <a class="back" href="#main"><i class="fas fa-caret-up fa-3x"></i></a>
+    <p>©2019 Hexa Kitchen</p>
+  </div>
   <!-- Footer -->
 
 
